@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose your books</title>
+</head>
+<body>
+   <form action="/monChoix" method="post"></form>
+     <p>
+       <label for="auteur">Auteur</label>
+       <input type="text" name="auteur" id="auteur">
+     </p>
+
+     <p>
+      <label for="titre">Titre</label>
+      <input type="text" name="titre" id="titre">
+    </p>
+
+    <p>
+      <label for="category">Choisir votre categorie</label><br/>
+            <select name="categorie" id="categorie">
+                <option value="roman historique">Roman Historique</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="autobiographie">Autobiographie</option>
+
+            </select>
+    </p>
+
+    <p>
+      <input type="submit" value="Chercher">
+    </p>
+
+</body>
+</html>
